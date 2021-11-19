@@ -1,5 +1,14 @@
-  lfc:
-    jms:
-      username: activemq
-      password: activemq
-      url: some url
+lfc:
+  jms:
+    username: activemq
+    password: activemq
+    url: some url
+
+---
+lfc:
+  jms:
+    username: activemq **** EN
+spring:
+  config:
+    activate:
+      on-profile: EN
