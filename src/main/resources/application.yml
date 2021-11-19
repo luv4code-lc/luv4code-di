@@ -1,0 +1,5 @@
+  lfc:
+    jms:
+      username: activemq
+      password: activemq
+      url: some url
